@@ -4,7 +4,6 @@ body {
 }
 
 .bar rect {
-    fill: steelblue;
     shape-rendering: crispEdges;
 }
 
@@ -18,9 +17,13 @@ body {
     shape-rendering: crispEdges;
 }
 
-#data {
-    width: 200px;
-    height: 900px;
+.data {
+    width: 100px;
+    height: 500px;
+}
+
+#data-div > div {
+    float: left;
 }
 
 #graph {
